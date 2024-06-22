@@ -9,3 +9,6 @@ may be putting your system at risk.#>
  
 New-CimSession #creating a new CIM session
 
+$sessionOptions= New-CimSessionOption -Protocol Dcom
+New-CimSession -SessionOption $sessionOptions -ComputerName localhost -name localsessions
+
