@@ -26,6 +26,18 @@ $path= "C:\Users\HP\Desktop"
 New-Item -path $path -name "trial123" -ItemType Directory
 
 
-
+$testfolder = test-path "c:\Program Files\MyCustomSoftware\Logs"
+$testfile = test-path "c:\Program Files\MyCustomSoftware\
+Logs\201503163824MyLogFile.txt"
+$testreg = test-path "HKCU:\Software\MyCustomSoftware\"
+If ($testfolder) {
+     write-host "Folder Found!" 
+    }
+If ($testfile) {
+     write-host "File Found!" 
+    }
+If ($testreg) { 
+    write-host "Registry Key Found!"
+ }
 
 
