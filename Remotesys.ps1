@@ -6,5 +6,6 @@ communications over WinRM.#>
 Before configuring these options, you should be aware of the security implications.
 When you allow all systems or a range of IPs to leverage the WinRM service, you
 may be putting your system at risk.#>
+ 
+New-CimSession #creating a new CIM session
 
-New-CimSession
