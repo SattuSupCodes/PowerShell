@@ -12,3 +12,8 @@ New-CimSession #creating a new CIM session
 $sessionOptions= New-CimSessionOption -Protocol Dcom
 New-CimSession -SessionOption $sessionOptions -ComputerName localhost -name localsessions
 
+#using this session for remote management
+
+New-CimSession
+$cimsession= Get-CimSession
+$cimsession
