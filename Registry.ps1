@@ -22,3 +22,10 @@ It doesn't store any information itself but instead acts as a pointer, or a shor
 to a registry key that keeps the information about the hardware profile currently being used.
 #>
 
+$path= "C:\Users\HP\Desktop"
+New-Item -path $path -name "trial123" -ItemType Directory
+
+
+
+
+
