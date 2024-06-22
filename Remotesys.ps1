@@ -17,3 +17,8 @@ New-CimSession -SessionOption $sessionOptions -ComputerName localhost -name loca
 New-CimSession
 $cimsession= Get-CimSession
 $cimsession
+
+New-CimSession -name mycomputer
+$newCimsession= Get-CimSession -name mycomputer
+Invoke-CimMethod -CimSession $newCimsession -class win32_process -MethodName create -Arguments @{CommandLine='calc.exe';CurrentDirectory="c:\windows\
+system32"}
