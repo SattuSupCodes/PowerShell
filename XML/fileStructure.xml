@@ -1,3 +1,12 @@
 <!--Opening tags-->
-<?xml version="1.0" encoding="UTF-8"?>
-<db dbserver="myserver.domain.local">MainDB</db>
+<!DOCTYPE version SYSTEM "fileStructure.dtd">
+<? version="1.0" encoding="UTF-8"/></version>
+<settings>
+   <db dbserver="myserver.domain.local">MainDB</db>
+
+</settings>
+<access> <!-- Parent Tag -->
+    <user>user1</user> <!-- Child and Sibling Tag -->
+    <user>user2</user> <!-- Child and Sibling Tag -->
+    <group>Group1</group> <!-- Child and Sibling Tag -->
+</access>

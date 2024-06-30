@@ -1,0 +1,7 @@
+<!ELEMENT version (settings,access)>
+<!ELEMENT settings (db)>
+<!ELEMENT db (#PCDATA)>
+<!ATTLIST db dbserver NMTOKEN #REQUIRED>
+<!ELEMENT access (user+,group)>
+<!ELEMENT user (#PCDATA)>
+<!ELEMENT group (#PCDATA)>
