@@ -1,0 +1,3 @@
+function set-network{
+    .SYNOPSIS
+}
