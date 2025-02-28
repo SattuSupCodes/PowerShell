@@ -4,9 +4,9 @@
 <settings>
    <db dbserver="myserver.domain.local">MainDB</db>
 
-</settings>
+<!-- </settings>
 <access> <!-- Parent Tag -->
     <user>user1</user> <!-- Child and Sibling Tag -->
     <user>user2</user> <!-- Child and Sibling Tag -->
     <group>Group1</group> <!-- Child and Sibling Tag -->
-</access>
+</access> -->

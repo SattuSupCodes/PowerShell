@@ -10,3 +10,4 @@ to pick up XML pretty quickly. While the syntax is very similar between HTML
 and XML, the purposes of these languages are very different. HTML is used by web
 browsers to render objects and text on a website. XML is used to encapsulate data to
 be stored on a system, or passed between systems.#>
+
