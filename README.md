@@ -11,7 +11,11 @@ This repository is my journal as I learn the basics of PowerShell.
 ```PowerShell
 New-Item -path "C:\users\HP\Desktop\blogsite" -name "siteAssets"-ItemType Directory
 ```
-## Warning Messages
+
+## Definitely Try This
+```
+start msedge "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+
 
 ```
 $myAge= read-host "enter your age"
