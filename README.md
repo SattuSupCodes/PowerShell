@@ -11,8 +11,14 @@ This repository is my journal as I learn the basics of PowerShell.
 ```PowerShell
 New-Item -path "C:\users\HP\Desktop\blogsite" -name "siteAssets"-ItemType Directory
 ```
-## Warning Messages
 
+## Definitely Try This
+```
+start msedge "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+
+
+```
+## Warning Messages
 ```
 $myAge= read-host "enter your age"
 if($myAge -le 17){
@@ -21,6 +27,7 @@ if($myAge -le 17){
 else{
     write-host "Welcome to the club"
 }
+```
 ```
 
 ## Get-Commands
