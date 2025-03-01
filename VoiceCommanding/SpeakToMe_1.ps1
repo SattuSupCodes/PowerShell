@@ -13,7 +13,7 @@ $choices.Add("hello")
 $choices.Add("how are you")
 $choices.Add("goodbye")
 $choices.Add("abc")
-
+# hehe
 $grammarBuilder = New-Object System.Speech.Recognition.GrammarBuilder
 $grammarBuilder.Append($choices)
 
