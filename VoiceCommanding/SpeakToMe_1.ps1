@@ -28,7 +28,7 @@ try {
     $text = $result.Text
     Write-Host "You said: $text"
 
-    # Respond based on recognized text
+    # i'll soon compile all this in one permanent function
     switch ($text) {
         "hello" { $speaker.Speak("Hello! How can I assist you?") }
         "how are you" { $speaker.Speak("I am just a terminal, but thanks for asking!") }
